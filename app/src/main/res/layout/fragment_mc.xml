@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:fontFamily="casual"
+        android:fontFamily="@font/stylu"
         android:text="Main Course"
         android:textAlignment="center"
         android:textColor="@color/black"

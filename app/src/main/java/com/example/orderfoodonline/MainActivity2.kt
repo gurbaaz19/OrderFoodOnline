@@ -21,9 +21,9 @@ class MainActivity2 : AppCompatActivity(){
 
 //        var placedOrder = mutableListOf(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
 //
-            abt1.setOnClickListener{
-            Log.d("Hey","Log Message")
-            }
+//            abt1.setOnClickListener{
+//            Log.d("Hey","Log Message")
+//            }
 
         val apFragment = ApFragment()
         val mcFragment = McFragment()
