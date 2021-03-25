@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/tvDsHd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="casual"
+        android:text="Desert"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivDsIt1"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/ivDsIt2"
+        app:layout_constraintEnd_toStartOf="@+id/taMcIt1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDsHd"
+        app:srcCompat="@drawable/cheesecake" />
+
+    <TextView
+        android:id="@+id/taMcIt1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="CHEESECAK\nVanilla cheesecake with fruit coulis, served with mascrapone"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ivDsIt1"
+        app:layout_constraintTop_toTopOf="@+id/ivDsIt1" />
+
+    <TextView
+        android:id="@+id/tvDsIt1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Price Rs.600"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivDsIt1"
+        app:layout_constraintEnd_toStartOf="@+id/btDsIt1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ivDsIt1"
+        app:layout_constraintTop_toBottomOf="@+id/taMcIt1" />
+
+    <Button
+        android:id="@+id/btDsIt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvDsIt1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvDsIt1" />
+
+    <Button
+        android:id="@+id/btDsIt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvDsIt2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvDsIt2" />
+
+    <Button
+        android:id="@+id/btDsIt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvDsIt3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvDsIt3" />
+
+    <Button
+        android:id="@+id/btDsIt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvDsIt4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvDsIt4" />
+
+    <ImageView
+        android:id="@+id/ivDsIt2"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/ivDsIt3"
+        app:layout_constraintEnd_toStartOf="@+id/taDsIt2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivDsIt1"
+        app:srcCompat="@drawable/tiramisu" />
+
+    <TextView
+        android:id="@+id/taDsIt2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="TIRASMISU\nLadyfingers, mascarpone, marsala wine, coffee and cocoa"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ivDsIt2"
+        app:layout_constraintTop_toBottomOf="@+id/ivDsIt1" />
+
+    <TextView
+        android:id="@+id/tvDsIt2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Price Rs.625"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivDsIt2"
+        app:layout_constraintEnd_toStartOf="@+id/btDsIt2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ivDsIt2"
+        app:layout_constraintTop_toBottomOf="@+id/taDsIt2" />
+
+    <ImageView
+        android:id="@+id/ivDsIt3"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/ivDsIt4"
+        app:layout_constraintEnd_toStartOf="@+id/taDsIt3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivDsIt2"
+        app:srcCompat="@drawable/chocolate_fondant" />
+
+    <TextView
+        android:id="@+id/taDsIt3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="CHOCOLATE FONDANT\nRich, warm chocolate cake with a soft centre and vanilla gelato"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ivDsIt3"
+        app:layout_constraintTop_toBottomOf="@+id/ivDsIt2" />
+
+    <TextView
+        android:id="@+id/tvDsIt3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Price Rs.615"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivDsIt3"
+        app:layout_constraintEnd_toStartOf="@+id/btDsIt3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ivDsIt3"
+        app:layout_constraintTop_toBottomOf="@+id/taDsIt3" />
+
+    <ImageView
+        android:id="@+id/ivDsIt4"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/taDsIt4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivDsIt3"
+        app:srcCompat="@drawable/sorbet" />
+
+    <TextView
+        android:id="@+id/taDsIt4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="SORBET\n2 scoops - Raspberry (pictured) sorbet"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ivDsIt4"
+        app:layout_constraintTop_toBottomOf="@+id/ivDsIt3" />
+
+    <TextView
+        android:id="@+id/tvDsIt4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Price Rs.550"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivDsIt4"
+        app:layout_constraintEnd_toStartOf="@+id/btDsIt4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ivDsIt4"
+        app:layout_constraintTop_toBottomOf="@+id/taDsIt4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/tvMcHd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="casual"
+        android:text="Main Course"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivMcIt1"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/ivMcIt2"
+        app:layout_constraintEnd_toStartOf="@+id/taMcIt1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMcHd"
+        app:srcCompat="@drawable/pizza" />
+
+    <TextView
+        android:id="@+id/taMcIt1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="MARGHERITA PIZZA\nBasil, buffalo mozzarella, tomato sauce"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ivMcIt1"
+        app:layout_constraintTop_toTopOf="@+id/ivMcIt1" />
+
+    <TextView
+        android:id="@+id/tvMcIt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Price Rs.805"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivMcIt1"
+        app:layout_constraintEnd_toStartOf="@+id/btMcIt1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ivMcIt1"
+        app:layout_constraintTop_toBottomOf="@+id/taMcIt1" />
+
+    <ImageView
+        android:id="@+id/ivMcIt2"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/ivMcIt3"
+        app:layout_constraintEnd_toStartOf="@+id/taMcIt2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivMcIt1"
+        app:srcCompat="@drawable/lasagna" />
+
+    <TextView
+        android:id="@+id/taMcIt2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="LASAGNE\nBaked assorted vegetable lasagna,“a classic from Emilia Romagna”"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ivMcIt2"
+        app:layout_constraintTop_toTopOf="@+id/ivMcIt2" />
+
+    <TextView
+        android:id="@+id/tvMcIt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Price Rs.795"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivMcIt2"
+        app:layout_constraintEnd_toStartOf="@+id/btMcIt2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ivMcIt2"
+        app:layout_constraintTop_toBottomOf="@+id/taMcIt2" />
+
+    <ImageView
+        android:id="@+id/ivMcIt3"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/ivMcIt4"
+        app:layout_constraintEnd_toStartOf="@+id/taMcIt3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivMcIt2"
+        app:srcCompat="@drawable/pasta" />
+
+    <TextView
+        android:id="@+id/taMcIt3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="PASTA\nSpicy creamy tomato sauce, garlic, green and black olives, capper, basil"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ivMcIt3"
+        app:layout_constraintTop_toTopOf="@+id/ivMcIt3" />
+
+    <TextView
+        android:id="@+id/tvMcIt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Price Rs.800"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivMcIt3"
+        app:layout_constraintEnd_toStartOf="@+id/btMcIt3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ivMcIt3"
+        app:layout_constraintTop_toBottomOf="@+id/taMcIt3" />
+
+    <Button
+        android:id="@+id/btMcIt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvMcIt3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvMcIt3" />
+
+    <Button
+        android:id="@+id/btMcIt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvMcIt2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvMcIt2" />
+
+    <Button
+        android:id="@+id/btMcIt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvMcIt5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvMcIt5" />
+
+    <Button
+        android:id="@+id/btMcIt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvMcIt1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvMcIt1" />
+
+    <ImageView
+        android:id="@+id/ivMcIt4"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/taMcIt4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivMcIt3"
+        app:srcCompat="@drawable/spaghetti" />
+
+    <TextView
+        android:id="@+id/taMcIt4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="SPAGHETTI\nSpaghetti pasta with freshly prepared arrabiatta sauce and basil"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ivMcIt4"
+        app:layout_constraintTop_toTopOf="@+id/ivMcIt4" />
+
+    <TextView
+        android:id="@+id/tvMcIt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price Rs.790"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivMcIt4"
+        app:layout_constraintEnd_toStartOf="@+id/btMcIt4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ivMcIt4"
+        app:layout_constraintTop_toBottomOf="@+id/taMcIt4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/miap"
+        android:title="Appetizers"
+        android:icon="@drawable/ic_ap"/>
+
+    <item
+        android:id="@+id/mimc"
+        android:title="Main Course"
+        android:icon="@drawable/ic_mc"/>
+
+    <item
+        android:id="@+id/mids"
+        android:title="Desert"
+        android:icon="@drawable/ic_ds"/>
+</menu>
