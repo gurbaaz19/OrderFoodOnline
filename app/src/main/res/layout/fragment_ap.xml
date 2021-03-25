@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="30px"
     tools:context=".MainActivity2">
-
     <TextView
         android:id="@+id/tvApHd"
         android:layout_width="match_parent"
@@ -28,9 +28,7 @@
         android:scaleType="fitXY"
         app:layout_constraintBottom_toTopOf="@+id/ivApIt2"
         app:layout_constraintEnd_toEndOf="@+id/ivApIt2"
-        app:layout_constraintEnd_toStartOf="@+id/taApIt1"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/ivApIt2"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvApHd"
         app:srcCompat="@drawable/bruschetta" />
 
@@ -163,9 +161,7 @@
         android:scaleType="fitXY"
         app:layout_constraintBottom_toTopOf="@+id/ivApIt3"
         app:layout_constraintEnd_toEndOf="@+id/ivApIt3"
-        app:layout_constraintEnd_toStartOf="@+id/taApIt2"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/ivApIt3"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ivApIt1"
         app:srcCompat="@drawable/ravioli" />
 
@@ -189,17 +185,12 @@
 
     <ImageView
         android:id="@+id/ivApIt3"
-        android:layout_width="0dp"
-        android:layout_height="150dp"
-        android:layout_marginStart="5dp"
-        android:layout_marginLeft="5dp"
+        android:layout_width="192dp"
+        android:layout_height="160dp"
         android:layout_marginTop="5dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toTopOf="@+id/ivApIt4"
         app:layout_constraintEnd_toEndOf="@+id/ivApIt4"
-        app:layout_constraintEnd_toStartOf="@+id/taApIt3"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/ivApIt4"
         app:layout_constraintTop_toBottomOf="@+id/ivApIt2"
         app:srcCompat="@drawable/calamari" />
 
