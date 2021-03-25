@@ -37,16 +37,14 @@ class MainActivity2 : AppCompatActivity() {
         menuInflater.inflate(R.menu.app_bar_menu, menu)
         return true
     }
-//    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-//        val apFragment = ApFragment()
-//        val mcFragment = McFragment()
-//        val dsFragment = DsFragment()
-//
-//        when(item.itemId){
-//            R.id.miorder -> setCurrentFragment()
-//        }
-//        return true
-//    }
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId){
+            R.id.miorder -> Intent(applicationContext, MainActivity3::class.java).also{
+                startActivity(it)
+            }
+        }
+        return true
+    }
 
         private fun setCurrentFragment(fragment: Fragment) =
             supportFragmentManager.beginTransaction().apply {
