@@ -41,7 +41,7 @@ class MainActivity2 : AppCompatActivity(){
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.miorder -> Intent(applicationContext, MainActivity3::class.java).also {
+            R.id.miorder -> Intent(applicationContext, Cart::class.java).also {
                 startActivity(it)
             }
         }
