@@ -9,10 +9,11 @@
         android:id="@+id/txtqty"
         android:layout_width="150dp"
         android:layout_height="37dp"
-        android:layout_marginTop="84dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
         android:text="TextView"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -20,9 +21,9 @@
         android:id="@+id/orderv"
         android:layout_width="131dp"
         android:layout_height="123dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/txtqty"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtqty"
         app:srcCompat="@drawable/logo_alt" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
