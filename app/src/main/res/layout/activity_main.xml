@@ -14,7 +14,7 @@
         android:fontFamily="@font/stylu"
         android:gravity="center_horizontal"
         android:inputType="textMultiLine"
-        android:text="DEVSOC RESTURANT\nWELCOMES\nYOU"
+        android:text="DEVSOC RESTAURANT\nWELCOMES\nYOU"
         android:textAlignment="center"
         android:textColor="#0C5A98"
         android:textSize="30sp"
