@@ -17,14 +17,6 @@ class MainActivity2 : AppCompatActivity(){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
 
-                val abt1= findViewById<Button>(R.id.btApIt1)
-
-//        var placedOrder = mutableListOf(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
-//
-//            abt1.setOnClickListener{
-//            Log.d("Hey","Log Message")
-//            }
-
         val apFragment = ApFragment()
         val mcFragment = McFragment()
         val dsFragment = DsFragment()
