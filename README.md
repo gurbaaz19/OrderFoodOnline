@@ -1,10 +1,12 @@
 # OrderFoodOnline
 DevSoc Hackathon
 ```
-The modern technology solutions are diverse and work at different levels making it difficult for the 
-users to link their applications to work synchronously. Individual applications are a great feature in 
-itself but integration of various applications and services can lead to increased productivity. 
-Integration will save time on users part to perform simple functionalities. 
+During COVID-19 it is important for restaurants to adopt newer methods of 
+taking orders replacing the old methods of a human taking the order . This
+application would act as a bridge between the customers on the tables and the
+kitchen. The order can be placed here and the information would be relayed to 
+the kitchen for them to prepare the food and provide the customer with the food
+during the estimated time.(Backend yet to be implemented)
 >
 
 ## Screenshots
