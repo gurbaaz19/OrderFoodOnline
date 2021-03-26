@@ -1,4 +1,4 @@
-# TABLEORDERAPP
+# RESTAURANT FOOD ORDER APP
 DevSoc Hackathon
 
 ## Motivation
@@ -38,7 +38,7 @@ it by choosing the appropriate option.
   
 <p>
 <img align="left" src="README IMAGES/4l.jpeg" width="400px" hspace="20" vspace="20"/>
-<img align="left" src="README IMAGES4d.jpeg" width="400px" vspace="20"/>
+<img align="left" src="README IMAGES/4d.jpeg" width="400px" vspace="20"/>
 </p> 
   
 <p>
