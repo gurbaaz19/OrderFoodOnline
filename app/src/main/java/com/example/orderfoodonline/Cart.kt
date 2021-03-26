@@ -6,6 +6,7 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -30,6 +31,31 @@ class Cart: AppCompatActivity()  {
 
                 finish()
             }
+
+            findViewById<Button>(R.id.btnConfirm).setOnClickListener {
+                if(uqtyap[0]==0 &&
+                        uqtyap[1]==0 &&
+                        uqtyap[2]==0 &&
+                        uqtyap[3]==0 &&
+                        uqtymc[0]==0 &&
+                        uqtymc[1]==0 &&
+                        uqtymc[2]==0 &&
+                        uqtymc[3]==0 &&
+                        uqtyds[0]==0 &&
+                        uqtyds[1]==0 &&
+                        uqtyds[2]==0 &&
+                        uqtyds[3]==0) {
+                    Toast.makeText(this, "Please order something", Toast.LENGTH_SHORT).show()
+                }
+            else{
+                Toast.makeText(this,"Your order has been accepted, it will be on your table in a few minutes. HAPPY DINING !!!",Toast.LENGTH_SHORT).show()
+                    Intent(this, LastActivity::class.java).also {
+                        startActivity(it)
+                    }
+                }
+
+            }
+
             var todolist = mutableListOf(
                 Rvhold(uqtyap[0]), Rvhold(uqtyap[1]), Rvhold(uqtyap[2]), Rvhold(uqtyap[3]),
                 Rvhold(uqtymc[0]), Rvhold(uqtymc[1]), Rvhold(uqtymc[2]), Rvhold(uqtymc[3]),
@@ -37,7 +63,7 @@ class Cart: AppCompatActivity()  {
             )
 
             var totalCost = cost[0]*uqtyap[0]+cost[1]*uqtyap[1]+cost[2]*uqtyap[2]+cost[3]*uqtyap[3]+cost[4]*uqtymc[0]+cost[5]*uqtymc[1]+cost[6]*uqtymc[2]+cost[7]*uqtymc[3]+cost[8]*uqtyds[0]+cost[9]*uqtyds[1]+cost[10]*uqtyds[2]+cost[11]*uqtyds[3]
-            var gst = 0.18*totalCost
+            var gst = 0.05*totalCost
             var netAmt = gst + totalCost
         findViewById<TextView>(R.id.tvTotal).text= totalCost.toString()
         findViewById<TextView>(R.id.tvGST).text= gst.toString()

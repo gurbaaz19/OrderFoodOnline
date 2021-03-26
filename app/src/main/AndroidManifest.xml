@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_icon_roch_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.OrderFoodOnline">
+        <activity android:name=".LastActivity"></activity>
         <activity
             android:name=".Cart"
             android:screenOrientation="portrait" />

@@ -83,7 +83,7 @@
         android:id="@+id/tvGSTp"
         android:layout_width="146dp"
         android:layout_height="59dp"
-        android:text="GST 18%"
+        android:text="GST 5%"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBaseline_toBaselineOf="@+id/tvGST"
