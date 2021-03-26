@@ -21,28 +21,28 @@ it by choosing the appropriate option.
 
 ## Screenshots
 <p>
-<img align="left" src="README IMAGES/1l.jpeg" title="Onborading Alpha" width="400px" hspace="20" vspace="20"/>
-<img align="left" src="https://raw.githubusercontent.com/theashwin/automator/master/screenshots/app-two.jpg" title="Onborading Beta" width="400px" vspace="20"/>
+<img align="left" src="README IMAGES/1l.jpeg" width="400px" hspace="20" vspace="20"/>
+<img align="left" src="README IMAGES/1d.jpeg" width="400px" vspace="20"/>
 </p>
    
 
 <p>
-<img align="left" src="https://raw.githubusercontent.com/theashwin/automator/master/screenshots/app-three.jpg" title="Home" width="400px" hspace="20" vspace="20"/>
-<img align="left" src="https://raw.githubusercontent.com/theashwin/automator/master/screenshots/app-eleven.jpg" title="Drawer" width="400px" vspace="20"/>
+<img align="left" src="README IMAGES/2l.jpeg" width="400px" hspace="20" vspace="20"/>
+<img align="left" src="README IMAGES/2d.jpeg" width="400px" vspace="20"/>
 </p>
   
 <p>
-<img align="left" src="https://raw.githubusercontent.com/theashwin/automator/master/screenshots/app-four.jpg" width="400px" hspace="20" vspace="20"/>
-<img align="left" src="https://raw.githubusercontent.com/theashwin/automator/master/screenshots/app-six.jpg" width="400px" vspace="20"/>
+<img align="left" src="README IMAGES/3l.jpeg" width="400px" hspace="20" vspace="20"/>
+<img align="left" src="README IMAGES/3d.jpeg" width="400px" vspace="20"/>
 </p>
   
 <p>
-<img align="left" src="https://raw.githubusercontent.com/theashwin/automator/master/screenshots/app-seven.jpg" width="400px" hspace="20" vspace="20"/>
-<img align="left" src="https://raw.githubusercontent.com/theashwin/automator/master/screenshots/app-eight.jpg" width="400px" vspace="20"/>
+<img align="left" src="README IMAGES/4l.jpeg" width="400px" hspace="20" vspace="20"/>
+<img align="left" src="README IMAGES4d.jpeg" width="400px" vspace="20"/>
 </p> 
   
 <p>
-<img align="left" src="https://raw.githubusercontent.com/theashwin/automator/master/screenshots/app-nine.jpg" width="400px" hspace="20" vspace="20"/>
-<img align="left" src="https://raw.githubusercontent.com/theashwin/automator/master/screenshots/app-ten.jpg" width="400px" vspace="20"/>
+<img align="left" src="README IMAGES/5l.jpeg" width="400px" hspace="20" vspace="20"/>
+<img align="left" src="README IMAGES/5d.jpeg" width="400px" vspace="20"/>
 </p>
   
