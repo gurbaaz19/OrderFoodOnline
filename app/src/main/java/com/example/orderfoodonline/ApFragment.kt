@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.Toast
 import com.example.orderfoodonline.R
 import com.example.orderfoodonline.rettp
 
@@ -42,19 +43,23 @@ class ApFragment : Fragment() {
 
         getView()?.findViewById<Button>(R.id.btApIt1)?.setOnClickListener {
             qty[0] = qty[0] + 1
+            Toast.makeText(this.context, "Item is added to cart", Toast.LENGTH_SHORT).show()
             rettp(qty)
         }
 
         getView()?.findViewById<Button>(R.id.btApIt2)?.setOnClickListener {
             qty[1] = qty[1] + 1
+            Toast.makeText(this.context, "Item is added to cart", Toast.LENGTH_SHORT).show()
             rettp(qty)
         }
         getView()?.findViewById<Button>(R.id.btApIt3)?.setOnClickListener {
             qty[2] = qty[2] + 1
+            Toast.makeText(this.context, "Item is added to cart", Toast.LENGTH_SHORT).show()
             rettp(qty)
         }
         getView()?.findViewById<Button>(R.id.btApIt4)?.setOnClickListener {
             qty[3] = qty[3] + 1
+            Toast.makeText(this.context, "Item is added to cart", Toast.LENGTH_SHORT).show()
             rettp(qty)
         }
 

@@ -43,20 +43,23 @@ class McFragment : Fragment() {
 
         getView()?.findViewById<Button>(R.id.btMcIt1)?.setOnClickListener {
             qty[0] = qty[0] + 1
-            Toast.makeText(this.context, "nice choice", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this.context, "Item is added to cart", Toast.LENGTH_SHORT).show()
             retmc(qty)
         }
 
         getView()?.findViewById<Button>(R.id.btMcIt2)?.setOnClickListener {
             qty[1] = qty[1] + 1
+            Toast.makeText(this.context, "Item is added to cart", Toast.LENGTH_SHORT).show()
             retmc(qty)
         }
         getView()?.findViewById<Button>(R.id.btMcIt3)?.setOnClickListener {
             qty[2] = qty[2] + 1
+            Toast.makeText(this.context, "Item is added to cart", Toast.LENGTH_SHORT).show()
             retmc(qty)
         }
         getView()?.findViewById<Button>(R.id.btMcIt4)?.setOnClickListener {
             qty[3] = qty[3] + 1
+            Toast.makeText(this.context, "Item is added to cart", Toast.LENGTH_SHORT).show()
             retmc(qty)
         }
 
